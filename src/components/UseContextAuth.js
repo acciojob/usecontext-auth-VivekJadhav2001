@@ -6,14 +6,12 @@ function UseContextAuth() {
 
   return (
     <div>
-      <h1 className='text-4xl font-bold'>
-        Click on the checkbox to get authenticated
-      </h1>
+      <h1>Click on the checkbox to get authenticated</h1>
 
       {isAuth ? (
-        <p>You are now Authenticated</p>
+        <p className="authText">you are now authenticated</p>
       ) : (
-        <p>You are not authenticated</p>
+        <p>you are not authenticated</p>
       )}
 
       <input
