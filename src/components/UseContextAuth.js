@@ -9,7 +9,7 @@ function UseContextAuth() {
       <h1>Click on the checkbox to get authenticated</h1>
 
       {isAuth ? (
-        <p className="authText">you are now authenticated</p>
+        <p className="authText">You are now authenticated, you can proceed</p>
       ) : (
         <p>you are not authenticated</p>
       )}
